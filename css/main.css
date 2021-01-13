@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto.ttf);
+}
+
 .wrapper-mail {
     background-color: #E5E5E5;
 }
@@ -7,11 +12,12 @@
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-bottom: 10px;
 }
 
-.header-mail img {
+.header-mail-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -19,9 +25,90 @@
     margin-bottom: 10px;
 }
 
+.header-mail-bunner {
+    padding-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 22px;
+}
+
 .inline-mail {
     border-top: 1px solid #cccccc;
     max-width: 508px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.header-mail h1 {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.header-mail h1 span {
+    font-weight: 700;
+}
+
+.header-mail h2 {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 39px;
+}
+
+.header-mail h2 span {
+    color: #2A9B28;
+}
+
+.body-mail {
+    max-width: 600px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.body-mail p {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
+
+.information-order {
+    display: flex;
+}
+
+.product {
+    max-width: 200px;
+    padding-left: 141px;
+}
+
+.information-order h3 {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+.information-order p {
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
 }
