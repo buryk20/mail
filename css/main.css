@@ -91,11 +91,12 @@
 
 .information-order {
     display: flex;
+    justify-content: space-around;
 }
 
 .product {
     max-width: 200px;
-    padding-left: 141px;
+    margin-right: 25px;
 }
 
 .information-order h3 {
@@ -111,4 +112,22 @@
     font-family: 'Roboto';
     font-weight: 400;
     text-align: center;
+}
+
+.product-code {
+    margin-right: 43px;
+}
+
+.product-img {
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    margin-right: 50px;
 }
