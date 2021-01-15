@@ -5,6 +5,7 @@
 
 .wrapper-mail {
     background-color: #E5E5E5;
+    padding-bottom: 30px;
 }
 
 .header-mail {
@@ -235,12 +236,42 @@ div .emeil-padding {
     padding-top: 0;
 }
 
+.mail-footer-text {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mail-footer-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-right: 16%;
+}
+
+.mail-footer-text p {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 36px;
+}
+
+.mail-footer-link {
+    display: inline-block;
+}
+
 .table-wrapper-mobail table {
     margin-bottom: 15px;
 }
 
 .mail-footer-text {
     padding-left: 7%;
+    max-width: 256px;
+    margin-right: 9%;
 }
 
 .mail-footer-img {
@@ -248,6 +279,7 @@ div .emeil-padding {
 }
 
 .mail-footer {
+    padding-top: 5px;
     display: flex;
 }
 
@@ -257,5 +289,18 @@ div .emeil-padding {
     }
     .table-wrapper-mobail {
         display: block;
+    }
+    .mail-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mail-footer-img {
+        margin-right: 0;
+    }
+    .mail-footer-text {
+        padding-left: 7%;
+        max-width: 100%;
+        margin-right: 9%;
     }
 }
