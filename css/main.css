@@ -44,7 +44,7 @@
 
 .header-mail h1 {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
     font-weight: 400;
@@ -58,7 +58,7 @@
 
 .header-mail h2 {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
     font-weight: 700;
@@ -82,7 +82,7 @@
 
 .body-mail p {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: center;
     font-weight: 700;
@@ -103,7 +103,7 @@
 
 .information-order h3 {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
     margin: 0;
@@ -111,7 +111,7 @@
 
 .information-order p {
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
     text-align: center;
 }
@@ -129,7 +129,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     color: #434343;
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -154,7 +154,7 @@ th {
 .body-mail-text h2 {
     margin: 0;
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -181,7 +181,7 @@ div .emeil-padding {
 
 .body-mail-text-information h2 {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
     font-weight: 700;
@@ -199,7 +199,7 @@ div .emeil-padding {
     margin: 0;
     padding-left: 7%;
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 37px;
@@ -207,7 +207,7 @@ div .emeil-padding {
 
 .text-table {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
@@ -228,7 +228,7 @@ div .emeil-padding {
 
 .table-wrapper-mobail p {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -238,7 +238,7 @@ div .emeil-padding {
 
 .mail-footer-text {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -252,7 +252,7 @@ div .emeil-padding {
 
 .mail-footer-text p {
     color: #434343;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-align: left;
