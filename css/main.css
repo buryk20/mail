@@ -70,6 +70,7 @@
 }
 
 .body-mail {
+    width: 100%;
     max-width: 600px;
     background-color: #ffffff;
     margin-left: auto;
@@ -126,8 +127,90 @@
 table {
     margin-left: auto;
     margin-right: auto;
+    color: #434343;
+    font-family: 'Roboto';
+    font-size: 14px;
 }
 
-tr {
-    margin-right: 50px;
+td {
+    padding-right: 20px;
+}
+
+th {
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.meil-table {
+    max-width: 200px;
+}
+
+.body-mail-text {
+    width: 100%;
+    padding-left: 46px;
+}
+
+.body-mail-text h2 {
+    margin: 0;
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.body-mail-text p {
+    padding-top: 0;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+div .emeil-padding {
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.body-mail-text-wrapper {
+    width: 100%;
+    display: flex;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.body-mail-text-information h2 {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.name {
+    width: 22%;
+    max-width: 22%;
+    min-width: 22%;
+}
+
+.table-email {
+    margin: 0;
+    padding-left: 7%;
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 37px;
+}
+
+.text-table {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.table-email>*>tr>* {
+    padding-bottom: 3%;
 }
