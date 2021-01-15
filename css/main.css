@@ -214,3 +214,48 @@ div .emeil-padding {
 .table-email>*>tr>* {
     padding-bottom: 3%;
 }
+
+.table-wrapper-mobail {
+    padding-left: 6%;
+    margin-right: 6%;
+    display: none;
+}
+
+#bolt-mobail {
+    font-weight: 700;
+}
+
+.table-wrapper-mobail p {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.table-wrapper-mobail table {
+    margin-bottom: 15px;
+}
+
+.mail-footer-text {
+    padding-left: 7%;
+}
+
+.mail-footer-img {
+    margin-right: 8%;
+}
+
+.mail-footer {
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .table-wrapper-desktop {
+        display: none;
+    }
+    .table-wrapper-mobail {
+        display: block;
+    }
+}
